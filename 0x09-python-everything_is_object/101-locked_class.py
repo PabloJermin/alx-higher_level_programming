@@ -3,4 +3,5 @@
 
 class LockedClass:
     """ setattr """
+
     __slots__ = ["first_name"]
