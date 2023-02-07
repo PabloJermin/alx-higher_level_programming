@@ -9,4 +9,6 @@ Args:
 returns:
     booleand: True or false.
     """
+    #print("--->obj type {}".format(type(obj)))
+    #print("--->a_class type {}".format(type(a_class)))
     return isinstance(obj, a_class)
